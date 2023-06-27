@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 400px;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.info {
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 40%;
+  height: 70%;
+  margin-top: 35px;
+}
+.info h1 {
+  padding: 5px;
+}
+.info p {
+  padding: 5px;
+}
+.info a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+.info a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.content {
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+.skillEdu {
+  width: 30%;
+  height: 100%;
+}
+.skillCon {
+  width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+  height: 70%;
+}
+.experience {
+  width: 70%;
+  border: 1px solid black;
+}
+.mySkill {
+  padding: 20px;
+}
+.education {
+  border: 1px solid black;
+  padding: 10px;
+}
+.experienceInfo {
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+.myExperience {
+  padding: 20px;
+}
